@@ -2,3 +2,85 @@
 .hero{
     background-color: #ccffee;
 }
+
+nav{
+    background-color: #17252a;
+    color: #fff;
+
+} 
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #3aafa9;
+}
+
+.fa.fa-bars {
+    color:white; 
+    font-size: 1.5em;
+    transition: all .7s ease-in-out;
+  }
+
+  .fa.fa-bars:hover{
+      color: #3aafa9;
+  }
+
+.jumbotron{
+    background-image: url('img/web-dimension-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;background-position: right center;
+    border-radius: 0;
+    color: #fff;
+}
+
+.color-btn{
+    background-color: #3aafa9;
+    border: 1px solid #fff;
+    transition: all .5s ease-in-out;
+    color: #fff;
+}
+.color-btn:hover{
+    background-color: #2b7a78;
+    color: #fff;
+}
+
+.dark-btn{
+    background-color: #17252a;
+    border: 1px solid #fff;
+    transition: all .5s ease-in-out;
+    color: #fff;
+}
+.dark-btn:hover{
+    background-color: #2b7a78;
+    color: #fff;
+}
+
+.section-light{
+    background-color: #fff;
+    color: #17252a;
+    padding: 75px 0;
+}
+
+.color-primary{
+    color: #3aafa9;
+}
+.color-dark-primary{
+    color:#2b7a78;
+}
+.color-dark{
+    color: #17252a;
+}
+
+.color-white{
+    color: #fff;
+}
+
+.m-top-small{
+margin-top: 15px;
+}
+
+.section-primary{
+    background-color: #3aafa9;
+    padding: 75px 0;
+}
