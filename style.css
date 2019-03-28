@@ -1,15 +1,15 @@
 /* Navbar Styles */
 .hero{
-    background-color: #ccffee;
+    background-color: #000;
 }
 
 nav{
     background-color: #17252a;
-    color: #fff;
+    color: #feffff;
 
 } 
 nav a{
-    color: #fff;
+    color: #feffff;
     text-decoration: none;
 }
 nav a:hover{
@@ -17,7 +17,7 @@ nav a:hover{
 }
 
 .fa.fa-bars {
-    color:white; 
+    color:#feffff; 
     font-size: 1.5em;
     transition: all .7s ease-in-out;
   }
@@ -29,8 +29,9 @@ nav a:hover{
 .jumbotron{
     background-image: url('img/web-dimension-hero.jpg');
     background-size: cover;
-    background-repeat: no-repeat;background-position: right center;
+    background-repeat: no-repeat;background-position: center center;
     border-radius: 0;
+    text-shadow: 1px 1px 2px #000000;
     color: #fff;
 }
 
@@ -49,7 +50,7 @@ nav a:hover{
     background-color: #17252a;
     border: 1px solid #fff;
     transition: all .5s ease-in-out;
-    color: #fff;
+    color: #feffff;
 }
 .dark-btn:hover{
     background-color: #2b7a78;
@@ -57,7 +58,7 @@ nav a:hover{
 }
 
 .section-light{
-    background-color: #fff;
+    background-color: #feffff;
     color: #17252a;
     padding: 75px 0;
 }
@@ -73,7 +74,7 @@ nav a:hover{
 }
 
 .color-white{
-    color: #fff;
+    color: #feffff;
 }
 
 .m-top-small{
