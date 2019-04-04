@@ -1,0 +1,130 @@
+/* Navbar Styles */
+.hero{
+    background-color: #000;
+}
+
+nav{
+    background-color: #17252a;
+    color: #feffff;
+
+} 
+nav a{
+    color: #feffff;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #3aafa9;
+}
+
+.fa.fa-bars {
+    color:#feffff; 
+    font-size: 1.5em;
+    transition: all .7s ease-in-out;
+  }
+
+  .fa.fa-bars:hover{
+      color: #3aafa9;
+  }
+
+.jumbotron{
+    background-image: url('img/web-dimension-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;background-position: center center;
+    border-radius: 0;
+    text-shadow: 1px 1px 2px #000000;
+    color: #fff;
+}
+
+.color-btn{
+    background-color: #3aafa9;
+    border: 1px solid #fff;
+    transition: all .5s ease-in-out;
+    color: #fff;
+}
+.color-btn:hover{
+    background-color: #2b7a78;
+    color: #fff;
+}
+
+.dark-btn{
+    background-color: #17252a;
+    border: 1px solid #fff;
+    transition: all .5s ease-in-out;
+    color: #feffff;
+}
+.dark-btn:hover{
+    background-color: #2b7a78;
+    color: #fff;
+}
+
+.section-light{
+    background-color: #feffff;
+    color: #17252a;
+    padding: 75px 0;
+}
+
+.color-primary{
+    color: #3aafa9;
+}
+.color-dark-primary{
+    color:#2b7a78;
+}
+.color-dark{
+    color: #17252a;
+}
+
+.color-white{
+    color: #feffff;
+}
+
+.m-top-small{
+margin-top: 15px;
+}
+
+.section-primary{
+    background-color: #3aafa9;
+    padding: 75px 0;
+}
+
+.card-bg{
+    background-color: #feffff;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+.underline{
+    background-color: #3aafa9;
+    width: 50%;
+}
+
+.card-bg i{
+    padding: 10px;
+}
+
+.bottom-btn-row{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+footer{
+    background-color: #17252a;
+    color: #feffff;
+    padding: 15px;
+}
+
+@media only screen and (max-width : 767px) {
+    .box {
+      height: auto !important;
+    } 
+  }
+
+@media(max-width: 767px)  {
+    .card-bg{
+        margin-top: 15px;
+    }
+}
